@@ -1,8 +1,4 @@
-# OBJET
 
-###  acceder au propriete/protoypes et methodes d'un objet 
-
-```js
 //acceder au propriete/protoypes et methodes d'un objet 
 const Iam = {
     firstN: "hugo",
@@ -21,11 +17,10 @@ Iam.MyNcomplete()
 console.log(Iam.contact[0])
 console.log(Iam.works.webDev + " year")
 console.log(`I am ${Iam.age} years old`)
-```
 
-### criar e encher novo objet :
 
-```js
+
+
 //criar e encher novo objet :
 const newTab = {}
 newTab.budget = '53.000.000';
@@ -35,4 +30,3 @@ newTab.testFunc = function() {console.log(this.budget);};
 console.log(newTab)
 console.log(newTab.newObj.test2);
 newTab.testFunc()
-```
