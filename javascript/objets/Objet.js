@@ -30,3 +30,25 @@ newTab.testFunc = function() {console.log(this.budget);};
 console.log(newTab)
 console.log(newTab.newObj.test2);
 newTab.testFunc()
+
+
+
+
+//prendre des model objets
+const car = {
+    dors: 5,
+    motor: "v6",
+    chasis: "middle"
+}
+const carColor = {
+    color: "red",
+    tyle: 'mate'
+}
+const tesla = Object.create(car);
+tesla.color = Object.create(carColor);
+console.log("-------------------");
+tesla.dors = 7;
+console.log(tesla.motor);
+console.log(tesla.color.color);
+console.log(tesla.color.tyle);
+console.log(Object.keys(tesla));
