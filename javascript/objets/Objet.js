@@ -52,3 +52,4 @@ console.log(tesla.motor);
 console.log(tesla.color.color);
 console.log(tesla.color.tyle);
 console.log(Object.keys(tesla));
+console.log(Object.values(tesla));
